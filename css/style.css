@@ -9,7 +9,9 @@ body{
 .image{
     height:100px;
 }
-.text:hover{
-    text-decoration: dotted;
+h1{
+    color:red;
 }
-
+p:hover{
+    background-color:aqua;
+}
