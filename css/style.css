@@ -1,0 +1,15 @@
+.container{
+    display:flex
+}
+body{
+   background-image: url(https://media.istockphoto.com/id/1344257083/photo/white-bokeh-lights-abstract-background.webp?b=1&s=170667a&w=0&k=20&c=dppaNlcevHyrim93mqFbehypXdbbxZrqtUmrFH2O7rA=);
+   background-size: cover;
+   margin: 100px 100px;
+}
+.image{
+    height:100px;
+}
+.text:hover{
+    text-decoration: dotted;
+}
+
