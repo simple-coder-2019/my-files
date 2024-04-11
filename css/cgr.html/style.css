@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+  background-image: url(https://img.freepik.com/free-vector/gradient-ugadi-illustration_23-2149314764.jpg?w=740);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(https://img.freepik.com/free-vector/kites-yellow-frame-with-text-space-design_1017-22998.jpg?t=st=1712822873~exp=1712826473~hmac=860bdd5fa241a7b52aa38dc48caeae9030695c0ff8127bd13705974de2394130&w=740);
+  min-height: 100%;
+}
+.pimg3 {
+  background-image: url(https://img.freepik.com/free-psd/watercolor-ganesh-isolated_23-2151331276.jpg?t=st=1712823059~exp=1712826659~hmac=5e620dee36119fe39880f80a16f8456685b0dc6c1f9798062a8efa305b60c47f&w=740);
+  min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  background:skyblue;
+  color:blac;
+  padding: 20px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color:plum;
+  color: black;
+}
+.section-dark {
+  background-color:plum;
+  color:black;
+}
