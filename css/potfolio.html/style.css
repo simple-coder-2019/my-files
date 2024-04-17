@@ -4,7 +4,11 @@ header{
     justify-content: space-between;
     padding:0 100px;
     color:whitesmoke;
-    margin-bottom:10px;
+    margin-bottom:30px;
+    position: fixed;
+    width:85vw;
+    margin-left: 0%;
+
 } 
 ul{
     display: flex;
@@ -32,7 +36,9 @@ p:hover{
     justify-content:space-between;
     font-size:30px;
     font-style: italic;
-    padding: 10px;
+    padding: 35px;
+    margin-top:20px;
+   
    
 }
 #about{
@@ -62,8 +68,7 @@ h3:hover{
     padding:30px;
     transition:all 1s ease;
     color: black;
-    margin-top:10px;
-}
+}   
 .card img
 {
     width: 100%;
