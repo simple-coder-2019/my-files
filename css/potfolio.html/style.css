@@ -1,0 +1,92 @@
+header{
+    background-color:black;
+    display:flex;
+    justify-content: space-between;
+    padding:0 100px;
+    color:whitesmoke;
+    margin-bottom:10px;
+} 
+ul{
+    display: flex;
+    gap:60px;
+}
+a{
+    color:palevioletred;
+    text-decoration:none;
+    
+}
+ul li{
+    list-style-type:none;
+}
+a:hover{
+    color:aqua;
+}
+p:hover{
+     transform:scale(1.05);
+     color:palevioletred;
+}
+#banner{
+    background-color:black;
+    color:palevioletred;
+    display: flex;
+    justify-content:space-between;
+    font-size:30px;
+    font-style: italic;
+    padding: 10px;
+   
+}
+#about{
+    background-color: black;
+    color: palevioletred;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    font-style: italic;
+}
+ol:hover{
+    color:white;
+}
+h3:hover{
+    color:aqua;
+}
+#projects{
+    display:grid;
+    grid-template-columns:repeat(3,auto);
+    gap:30px;
+    margin-left:10px;
+}
+.card
+{
+    box-shadow:0 4px 8px;
+    border-radius: 20px;
+    padding:30px;
+    transition:all 1s ease;
+    color: black;
+    margin-top:10px;
+}
+.card img
+{
+    width: 100%;
+
+}
+.card:hover{
+ box-shadow: 7px 7px; 
+ color:black; 
+ scale: 1.05; 
+ transform:rotate(50);
+}
+h1{
+    color:palevioletred;
+    margin:10px;
+}
+#contact{
+    background-color: black;
+    margin:10px;
+    padding:30px;
+}
+p{
+    color:palevioletred;
+}
+body{
+    background-color:antiquewhite;
+}
