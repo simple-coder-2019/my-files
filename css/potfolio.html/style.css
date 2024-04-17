@@ -4,10 +4,9 @@ header{
     justify-content: space-between;
     padding:0 100px;
     color:whitesmoke;
-    margin-bottom:30px;
     position: fixed;
     width:85vw;
-    margin-left: 0%;
+
 
 } 
 ul{
@@ -37,8 +36,6 @@ p:hover{
     font-size:30px;
     font-style: italic;
     padding: 35px;
-    margin-top:20px;
-   
    
 }
 #about{
@@ -59,7 +56,6 @@ h3:hover{
     display:grid;
     grid-template-columns:repeat(3,auto);
     gap:30px;
-    margin-left:10px;
 }
 .card
 {
@@ -85,8 +81,8 @@ h1{
     margin:10px;
 }
 #contact{
+    margin-top:30px;
     background-color: black;
-    margin:10px;
     padding:30px;
 }
 p{
